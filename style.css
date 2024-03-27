@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    text-align: center;
+}
+.nav-bar{
+    background-color: rgb(4, 4, 54);
+    height: 8vh;
+    color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.choices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 10vh;
+    height: 24vh;
+    width: 100%;
+}
+.choice-img{
+    height: 18vh;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(4, 4, 54);
+}
+.choice-img:hover{
+    opacity: 0.5;
+    border: 5px solid rgb(4, 4, 54);
+}
+img{
+    height: 18vh;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8rem;
+    margin-top: 6vh
+}
+.score p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+#user-score{
+    color: rgb(0, 202, 0);
+    font-size: 3.5rem;
+}
+#comp-score{
+    color: red;
+    font-size: 3.5rem;
+}
+.draw-board{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#draw{
+    font-size: 2.5rem;
+    color: #e5880e;
+}
+.msg-container{
+    margin-top: 3rem;
+}
+#msg{
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: rgb(4, 4, 54);
+    display: inline;
+    border-radius: 1.5rem;
+    color: white;
+}
+
+@media (max-width: 480px){
+    .nav-bar{
+        font-size: 1.5rem;
+    }    
+    .choices{
+        gap: 2rem;
+    }
+    .choice-img{
+        height: 10vh;
+    }
+    img{
+        height: 8vh;
+    }
+    .score-board{
+        gap: 2rem;
+        margin-top: 4vh
+    }    
+    .score p{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    #user-score{
+        font-size: 2.5rem;
+    }  
+    #comp-score{
+        font-size: 2.5rem;
+    }    
+    .msg-container{
+        margin-top: 5rem;   
+    }   
+    #msg{
+        font-size: 1.2rem;
+        padding: 0.7rem;
+        border-radius: 1.5rem;
+    }
+}
