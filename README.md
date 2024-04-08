@@ -8,7 +8,7 @@ JavaScript mini project
 - Display three clickable button which is rock, paper & scissors.
 - After click one of this, display computer generated one value among rock, paper & scissors.
 - Analyse the results between users & computer then display it's result.
-- Display the winner message in green, loser message in red & draws in yellow, display score accordingly
+- Display the winner message in green, loser message in red & draws in yellow, display score accordingly.
 ##
 # How to use
 1. Fork/Clone this repository or download the files.
